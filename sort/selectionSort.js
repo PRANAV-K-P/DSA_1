@@ -5,7 +5,7 @@ const sort = (array) => {
         for (j = i + 1; j < array.length; j++) {
             if (array[min] > array[j]) {
                 min = j;
-            }
+            }       
         }
         temp = array[i];
         array[i] = array[min];
